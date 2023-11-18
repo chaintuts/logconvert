@@ -1,11 +1,11 @@
-# This file contains a make script for the GoGetData application
+# This file contains a make script for the LogConvert application
 #
 # Author: Josh McIntyre
 #
 
 # This block defines makefile variables
 SRC_FILES=src/*.go
-BUILD_DIR=bin/gogetdata
+BUILD_DIR=bin/logconvert
 
 # This rule builds the application
 # Here we are simply wrapping Go's build tool
